@@ -1,0 +1,23 @@
+.table {
+  max-width: 800px;
+  margin: 30px auto;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+/* tr:nth-child(even) {
+    background-color: #f2f2f2;
+  } */
+.table th,
+.table td {
+  padding: 5px 15px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.table th {
+  background-color: #edeef0;
+  font-weight: bold;
+}
+

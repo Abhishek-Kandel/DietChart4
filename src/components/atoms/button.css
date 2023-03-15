@@ -1,0 +1,42 @@
+.button {
+  font-size: 16px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-button {
+  background-color: #ff4136;
+  color: white;
+  font-size: 12px;
+  padding: 5px 10px;
+  margin-left: 5px;
+}
+
+.edit-button {
+  background-color: #0074d9;
+  color: white;
+  font-size: 12px;
+  padding: 5px 10px;
+  
+}
+
+.update-button {
+  background-color: #2ecc40;
+  color: white;
+}
+
+.submit-button {
+  background-color: #39cccc;
+  color: white;
+}
+.add-food-button{
+    background-color: #39cccc;
+  color: white;
+  margin:30px auto;
+}
+button:disabled,
+button[disabled]{
+    background-color: #979696;
+}
