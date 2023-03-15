@@ -40,3 +40,6 @@ button:disabled,
 button[disabled]{
     background-color: #979696;
 }
+
+
+/* use primary, secondary... buttons in view instead of classname */
